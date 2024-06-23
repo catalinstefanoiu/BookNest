@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('partials/head'); %>
+</head>
+
+<div class="container">
+  <header
+    class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+    <div class="col-md-3 mb-2 mb-md-0">
+      <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+        <h2 class="fw-semibold">Booknest</h2>
+        <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+    </div>
+
+    
+  </header>
+</div>
+
+<body>
+  <div class="container">
+    <div id="reservations-list" class="list-group mb-4">
+      <!-- Reservations list will be populated here -->
+    </div>
+
+    <h2 class="text-center">Choose your room, <%= guest %></h2>
+    <form id="reservation-form" method="post" class="card p-4 shadow-sm">
+      <div class="form-group mt-2">
+        <label for="room_id">Room ID</label>
+        <select id="room_id" name="room_id" class="form-control" required>
+          <% rooms.forEach(function(room) { %>
+            <option value="<%= room.id %>"><%= room.number %></option>
+          <% }); %>
+        </select>
+      </div>
+      <div class="form-group mt-2">
+        <label for="guest_name">Guest Name</label>
+        <input type="text" class="form-control" id="guest_name" name="guest_name" value="<%= guest %>" readonly>
+      </div>
+      <div class="form-group mt-2">
+        <label for="check_in">Check-in Date</label>
+        <input type="date" class="form-control" id="check_in" name="check_in" required>
+      </div>
+      <div class="form-group mt-2">
+        <label for="check_out">Check-out Date</label>
+        <input type="date" class="form-control" id="check_out" name="check_out" required>
+      </div>
+
+      <% if (error) { %>
+      <div class="mt-3 mb-3">
+        <span style="color: red"><%= error %></span>
+      </div>
+      <% } %>
+
+      <button type="submit" class="btn btn-primary mt-3" id="btnSubmit">Reserve</button>
+    </form>
+  </div>
+
+  
+  <%- include('partials/common-scripts'); %>
+  <script type="text/javascript" src="scripts/reservation.js"></script>
+</body>
+
+</html>
