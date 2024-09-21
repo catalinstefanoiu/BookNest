@@ -31,7 +31,7 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
    - cd BookNest
 4. Install dependecies:
 
- ```bash
+    ```bash
    - npm install
 6. Create a .env file in the root directory with the following variables:
 
