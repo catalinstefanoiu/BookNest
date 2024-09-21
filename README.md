@@ -48,7 +48,7 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
   
 6. Open your browser and go to:
      ```bash
- http://localhost:3000.
+    -http://localhost:3000.
 
 
    
