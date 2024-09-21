@@ -38,7 +38,7 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
 
 5.Start the server: 
 - node server.mjs
-- 
+  
 6.Open your browser and go to http://localhost:3000.
 
 
