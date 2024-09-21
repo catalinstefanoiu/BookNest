@@ -3,14 +3,10 @@
 BookNest is a web application for managing hotel bookings, allowing users to register, log in, and reserve rooms. Built using Node.js and Express, it utilizes PostgreSQL for data storage and JWT for authentication.
 
 
-![image](https://github.com/user-attachments/assets/b6bf8e21-da45-4f70-b1c7-c5c5e60a9356)
-
-
 ## Features
 
 - User registration and login
-
-  ![image](https://github.com/user-attachments/assets/b525905a-3827-48a6-a403-5e9a52ef9226)
+ 
 
 - Hotel listing with reservation capabilities
 - Room availability check
