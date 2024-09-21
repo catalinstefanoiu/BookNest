@@ -42,12 +42,12 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
    - AUTH_KEYS='{"private": "your_private_key", "public": "your_public_key"}'
    - NODE_ENV=development
 
-5.Start the server:
+5. Start the server:
      ```bash
 - node server.mjs
   
-6.Open your browser and go to:
-    ```bash
+6. Open your browser and go to:
+     ```bash
  http://localhost:3000.
 
 
