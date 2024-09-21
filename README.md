@@ -24,3 +24,19 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
 
    ```bash
    git clone https://github.com/yourusername/BookNest.git
+   
+2. Navigate to the project directory: cd BookNest
+3. Install dependecies:npm install
+4. Create a .env file in the root directory with the following variables:
+   B_USR=your_db_user
+   DB_HOST=localhost
+   DB_PWD=your_db_password
+   AUTH_KEYS='{"private": "your_private_key", "public": "your_public_key"}'
+   NODE_ENV=development
+
+5.Start the server: node server.mjs
+6.Open your browser and go to http://localhost:3000.
+
+
+   
+   
