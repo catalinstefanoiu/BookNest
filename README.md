@@ -26,6 +26,8 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
    git clone https://github.com/yourusername/BookNest.git
    
 2. Navigate to the project directory:
+
+   ```bash
    - cd BookNest
 4. Install dependecies:
    - npm install
