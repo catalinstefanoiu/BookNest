@@ -35,7 +35,7 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
    - npm install
 6. Create a .env file in the root directory with the following variables:
 
-```bash
+    ```bash
    - B_USR=your_db_user
    - DB_HOST=localhost
    - DB_PWD=your_db_password
@@ -44,11 +44,11 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
 
 5.Start the server:
 
-```bash
+    ```bash
 - node server.mjs
   
 6.Open your browser and go to:
-```bash
+    ```bash
  http://localhost:3000.
 
 
