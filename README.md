@@ -8,15 +8,15 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
 ## Features
 
 - User registration and login
-- ![image](https://github.com/user-attachments/assets/90df7ac9-a868-44bc-bbfd-32f9543d11b6)
-- ![image](https://github.com/user-attachments/assets/8bb27ae6-88d0-437f-9039-b5a967cc20e4)
+ ![image](https://github.com/user-attachments/assets/90df7ac9-a868-44bc-bbfd-32f9543d11b6)
+ ![image](https://github.com/user-attachments/assets/8bb27ae6-88d0-437f-9039-b5a967cc20e4)
 - Hotel listing with reservation capabilities
-- ![image](https://github.com/user-attachments/assets/f4d4e7cc-73a3-4cff-8650-6337db79b927)
+  ![image](https://github.com/user-attachments/assets/f4d4e7cc-73a3-4cff-8650-6337db79b927)
 - Room availability check
-- ![image](https://github.com/user-attachments/assets/ba11d6cf-9763-4b2d-8802-469a160d90f6)
-- ![image](https://github.com/user-attachments/assets/8090467a-fa99-4e0f-a047-84b968494475)
+  ![image](https://github.com/user-attachments/assets/ba11d6cf-9763-4b2d-8802-469a160d90f6)
+  ![image](https://github.com/user-attachments/assets/8090467a-fa99-4e0f-a047-84b968494475)
 - User authentication with JWT
-- ![image](https://github.com/user-attachments/assets/22b49c42-d93d-44cb-8fe9-c8adc3d551c4)
+  ![image](https://github.com/user-attachments/assets/22b49c42-d93d-44cb-8fe9-c8adc3d551c4)
 - Error handling for user actions
 
 ## Getting Started
