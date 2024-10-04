@@ -16,6 +16,7 @@ BookNest is a web application for managing hotel bookings, allowing users to reg
   ![image](https://github.com/user-attachments/assets/ba11d6cf-9763-4b2d-8802-469a160d90f6)
   ![image](https://github.com/user-attachments/assets/8090467a-fa99-4e0f-a047-84b968494475)
 - User authentication with JWT
+  
   ![image](https://github.com/user-attachments/assets/22b49c42-d93d-44cb-8fe9-c8adc3d551c4)
 - Error handling for user actions
 
